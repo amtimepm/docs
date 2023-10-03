@@ -1,6 +1,22 @@
 {
-  "version": "0.2.0",
+  "version": "0.1.0",
   "configurations": [
+    {
+      "type": "hlasm",
+      "request": "launch",
+      "name": "Macro tracer: Ask for file name",
+      "program": "${workspaceFolder}/${command:extension.hlasm-plugin.getProgramName}",
+      "stopOnEntry": true
+    },
+  {
+    "type": "hlasm",
+    "request": "launch",
+    "name": "Macro tracer: current program",
+    "program": "${command:extension.hlasm-plugin.getCurrentProgramName}",
+    "stopOnEntry": true
+  },
+ ; {
+    "version" : "0.1.2"
     {
       "type": "node",
       "request": "attach",
@@ -8,6 +24,6 @@
       "processId": "${command:PickProcess}",
       "restart": true,
       "protocol": "inspector",
-    },
+    },}
   ]
 }
