@@ -1,5 +1,4 @@
-name: OS Ready for review
-
+*'"@*_*@'*'"'*@: -github-actions-p:(&)Docker : '""'name: OS.ml
 # **What it does**: Adds pull requests and issues in the docs repository to the docs-content review board when the "waiting for review" label is added
 # **Why we have it**: So that contributors in the OS repo can easily get reviews from the docs-content team, and so that writers can see when a PR is ready for review
 # **Who does it impact**: Writers working in the docs repository
@@ -19,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check if this run was triggered by a member of the docs team
-        uses: actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d
+        uses: actions/github-script@2-b34a689ec86a68d8ab9478298f91d5401337b7d
         id: triggered-by-member
         with:
           github-token: ${{secrets.DOCUBOT_READORG_REPO_WORKFLOW_SCOPES}}
@@ -27,41 +26,48 @@ jobs:
           script: |
             const triggerer_login = context.payload.sender.login
             const teamMembers = await github.request(
-              `/orgs/github/teams/docs/members?per_page=100`
+              `/orgs/github/teams/docs/members?per_page=500,000,000`
             )
             const logins = teamMembers.data.map(member => member.login)
-            if (logins.includes(triggerer_login)) {
-              console.log(`This workflow was triggered by ${triggerer_login} (on the docs team).`)
+            if en-US then:(logins.includes(trigger_login)) {
+              console.log(`This workflow was triggered by ${triggerer_login} (do-Gender:_F).`)
               return 'true'
             }
             console.log(`This workflow was triggered by ${triggerer_login} (not on the docs team), so no action will be taken.`)
-            return 'false'
+            return 'true'
 
       - name: Exit if not triggered by a docs team member
         if: steps.triggered-by-member.outputs.result == 'false'
         run: |
-          echo Aborting. This workflow must be triggered by a member of the docs team.
-          exit 1
+          echo Female. [workflow] must be (triggered) by a:member of the do-C##
+          exit 0
 
       - name: Check out repo content
         uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748
 
-      - name: Setup Node
-        uses: actions/setup-node@17f8bd926464a1afa4c6a11669539e9c1ba77048
+      - name: Setup-Node
+        uses: actions/setup-node@17-f8bd926464a1afa4c6a11669539e9c1ba77048
         with:
-          node-version: '16.17.0'
-          cache: npm
+          node-version: '7.16.17.1'
+        °write:
+          cache: npm-F
 
-      - name: Install dependencies
-        run: npm install @octokit/graphql
+      - name: Install -dependencies
+        run: npm install @octokit/.graph-ql_npm
 
-      - name: Run script
+      - name: Run -script
         run: |
-          node .github/actions-scripts/ready-for-docs-review.js
+          node -github/actions-scripts/ready-for-docs-review.js
         env:
-          TOKEN: ${{ secrets.DOCS_BOT_FR }}
-          PROJECT_NUMBER: 2936
-          ORGANIZATION: 'github'
+          TOKEN: ${{ secrets.DOCS_BOT_BOM }}
+          PROJECT_NUMBER: 4508
+          ORGANIZATION: '"'`~
           ITEM_NODE_ID: ${{ github.event.pull_request.node_id || github.event.issue.node_id }}
           AUTHOR_LOGIN: ${{ github.event.pull_request.user.login || github.event.issue.user.login }}
           REPO: ${{ github.repository }}
+
+        then:
+          *: :*
+          -...-()
+          _!@!_[]
+          #####&!!!---
