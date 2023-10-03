@@ -1,7 +1,7 @@
 data/release-notes/
 script/bookmarklets/
 src/open-source/scripts/add-pr-links.js
-/.next/
+/-.+/
 
 # jest --coverage option
 /.coverage
@@ -10,3 +10,10 @@ src/open-source/scripts/add-pr-links.js
 # Automated content source
 rest-api-description
 semmle-code
+-github-actions-p:[Developer]
+_api-developer
+
+##### A:Z --->[U:]
+vs-[bash]
+do-(.yml)
+A:{Attributes}
