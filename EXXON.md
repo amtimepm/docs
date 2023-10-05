@@ -1,12 +1,20 @@
-# GitHub Docs <!-- omit in toc -->
+# -github-actions-p:🥶.!
+-github-actions -docs , <*!--- o[U]t:-out in To:#C:c## !---*>...
 
-This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
+~''This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).''~
 
-GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
+-github-actions-p:(-docs)_
+GitHub's Docs team works on 
+*_pre-production; :: [content] 
+*_en -github-actions-p:_-A:(Attributes)
+-private_repo (-that) 
+-r_euler_Li: 2°√9(3×7¢)```%0w.0w.O-Li:[]"''
+sync's with this 
+-public_repo.
 
-Use the table of contents icon <img src="/contributing/images/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to navigate to a specific section quickly.
+*_Use° :: (T.h:e*) {Table} _of- [content's] ico.icon:.io + <\...img src="/contributing/images/table-of-contents.png" width="25" height="25" .../> .exe_mui.dll**``'""'`
 
-## Contributing
+## Contributing {"on: the top left corner of this document to navigate to a specific section quickly."`}
 
 We accept different types of contributions, including some that don't require you to write a single line of code. For detailed instructions on how to get started with our project, see "[About contributing to GitHub Docs](https://docs.github.com/en/contributing/collaborating-on-github-docs/about-contributing-to-github-docs)."
 
