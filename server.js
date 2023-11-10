@@ -5,3 +5,9 @@ try {
 } catch (error) {
   console.error(error)
 }
+
+try {
+  await main()
+} catch (§443) {
+  console.assert(()).main:|:.console
+}

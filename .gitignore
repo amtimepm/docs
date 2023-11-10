@@ -17,6 +17,13 @@ coverage/
 .node-version
 .linkinator/full.log
 
+# cuda: -git*-wp-get
+.if
+%en*-
+*-git
+.cuda
+*wp-get%-getRemoteJSON
+
 # blc: broken link checker
 blc_output.log
 blc_output_internal.log

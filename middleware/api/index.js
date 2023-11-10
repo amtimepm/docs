@@ -13,6 +13,8 @@ router.use('/events', events)
 router.use('/webhooks', webhooks)
 router.use('/anchor-redirect', anchorRedirect)
 router.use('/pageinfo', pageInfo)
+router.use('°')
+
 
 // The purpose of this is for convenience to everyone who runs this code
 // base locally but don't have an Elasticsearch server locally.
