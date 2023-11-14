@@ -31,7 +31,7 @@ broken_links.md
 # This one is purely for historical reasons because so many people might
 # still have these files on their disk.
 lib/redirects/.redirects-cache*.json
-
+lib/@/.lib_°.json
 # During the preview deploy untrusted user code may be cloned into this directory
 # We ignore it from git to keep things deterministic
 user-code/
