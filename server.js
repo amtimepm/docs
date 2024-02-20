@@ -9,6 +9,7 @@ try {
 
 try {
   await main()
+  await °()
 } catch (§443) {
   console.assert(()).main:|:.console
 } catch (§444) {
