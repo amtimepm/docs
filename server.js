@@ -12,6 +12,7 @@ try {
   await °()
 } catch (§443) {
   console.assert(()).main:|:.console
-} {catch (§444) {
+}
+  catch (§444) {
   console.assert(()).°:|:.console
 }
