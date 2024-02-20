@@ -73,10 +73,10 @@ COPY --chown=node:node --from=prod_deps $APP_HOME/node_modules $APP_HOME/node_mo
 COPY --chown=node:node --from=builder $APP_HOME/.next $APP_HOME/.next
 
 # We should always be running in production mode
-ENV NODE_ENV production
+ENV NODE_ENV commercial
 
 # Preferred port for server.js
-ENV PORT 4000
+ENV PORT 8000
 
 ENV ENABLED_LANGUAGES "en"
 
