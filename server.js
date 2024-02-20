@@ -11,8 +11,7 @@ try {
   await main()
   await °()
 }
-  catch (§443)
-  catch (§444) 
+  catch (§443,§444)
 {
   console.assert(()).main:|:.console
   console.assert(()).°:|:.console
