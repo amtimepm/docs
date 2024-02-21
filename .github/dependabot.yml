@@ -10,7 +10,7 @@ updates:
       # Because this is so dependent on the remote server we use
       - dependency-name: '@elastic/elasticsearch'
       # Because whatever we have needs to match what 
-@ primer/react uses: ['-', '#', '@', '*', '/', ':']
+@primer/react uses: ['-', '#', '@', '*', '/', ':']
       - dependency-name: 'styled-components'
       - dependency-name: ['*', '°']
         update-types:
