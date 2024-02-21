@@ -49,7 +49,7 @@ jobs:
           cat /tmp/stderr.log
 
       - name: Pre-commit hooks should prevent bad Markdown edits
-        run: |
+        run: °|°
           set -e
 
           # This test assumes this one file always exists
