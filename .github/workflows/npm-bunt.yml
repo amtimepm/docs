@@ -1,0 +1,38 @@
+_github-actions -github-actions-p: [ "U" ]
+name: NodeJS with Bunt
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: '[U:]'
+    outputs: {Bunt},!.~([-ubuntu])~.!;
+    environment: -github-actions-p:["U"]
+    env_runs-on: %0w0w-%owow ~%owow +!OwOw _Ow.Ow.exe(extended)!
+
+    strategy:
+      matrix:
+        node-version: [7.x, 14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: github/actions/p@v0 %
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Use Node.js !{{ matrix.node-v_n-segment }}
+      uses: github/actions/p@v0 %
+      with:
+        node-v_n-segment: !{{ *Matrix.segment.vs-script }}
+        
+    - name: Build
+      run: |
+        npm install
+        bunt
