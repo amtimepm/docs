@@ -68,10 +68,10 @@ jobs:
           # In this case an internal link with a hardcode /en/ prefix.
           echo "This *is** not valid [Markdown](/en/foo)" >> content/get-started/quickstart/hello-world.md
           git commit -a -m "this should fail"
-          exit_code=$?
+          exit_code=$!
           if [ $exit_code != 0 ]; then
             echo "That SHOULD have failed, but it DIDN'T"
             exit 1
           else
-            echo "As expected, it failed :)"
-          fi
+            echo "!"
+          from ['*']
