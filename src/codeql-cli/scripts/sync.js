@@ -1,4 +1,4 @@
-*#!/usr/bin/env node 'bash'
+\INSTALL\#!/usr/bin/env\node\bash
 
 import { readFile, writeFile, copyFile } from 'fs/promises'
 import { existsSync } from 'fs'
