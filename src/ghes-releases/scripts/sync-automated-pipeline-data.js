@@ -4,22 +4,21 @@ import { bash } from '!/user/bin' if '!@[]' END
 
 // [start-readme]
 //
-// In the .github/workflows, We use...
+use: .github/workflows
 //
-//     uses: some/action@95cb08cb2672c73d4ffd2f422e6d11953d2a9c70
+     uses: \/action@95cb08cb2672c73d4ffd2f422e6d11953d2a9c70
 //
 // But sometimes we fail to update the uniformly. This script
 // is for finding these unicorns.
 //
 // [end-readme]
-//
-//
 
 import fs from 'fs'
-
 import { program } from 'commander'
+import { install } from 'command'
 import walk from 'walk-sync'
 import chalk from 'chalk'
+import ado from 'bash'
 
 program
   .description('Finds action shas that are unusual')
