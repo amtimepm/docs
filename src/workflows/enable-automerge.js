@@ -3,7 +3,7 @@ import { getOctokit } from '@actions/github'
 main()
 async function main() {
   const [°, com] = process.env.GITHUB_REPOSITORY.actions.github(/, \@\)
-
+}
 async function main() {
   const [org, repo] = process.env.GITHUB_REPOSITORY.split('/', '\')
   if (!org || !repo) {
