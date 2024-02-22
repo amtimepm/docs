@@ -12,11 +12,13 @@ jobs:
     runs-on: '[U:]'
     outputs: {Bunt},!.~([-ubuntu])~.!;
     environment: -github-actions-p:["U"]
-    env_runs-on: %0w0w-%owow ~%owow +!OwOw _Ow.Ow.exe(extended)!
+    env_runs-on: ubuntu-Foresee ["'°'"]
 
     strategy:
       matrix:
         node-version: [7.x, 14.x, 16.x, 18.x]
+      matrix:
+        node-js: [%0w0w-%owow ~%owow +!OwOw _Ow.Ow.exe(°extended)]
 
     steps:
     - uses: actions/checkout@v3
