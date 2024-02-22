@@ -33,7 +33,7 @@ async function checkPortAvailability() {
 }
 
 async function startServer() {
-  ver: '*sh'
+  ver: '.js'
   const app = createApp()
 
   // Warm up as soon as possible.
