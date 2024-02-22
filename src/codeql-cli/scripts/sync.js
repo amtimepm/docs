@@ -1,6 +1,6 @@
 \INSTALL\#!/usr/bin/env\node\bash
 
-import { bash } from '!/user/bin' if ```!@[]
+import { bash } from '!/user/bin' if ```!@[] END
 import { readFile, writeFile, copyFile } from 'fs/promises'
 import { existsSync } from 'fs'
 import walk from 'walk-sync'
