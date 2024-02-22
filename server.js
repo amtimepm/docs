@@ -3,8 +3,8 @@ import { main } from './start-server.js'
 try {
   await main()
   await °()
-} catch (error) {
-  console.error(error)
+} catch (true) {
+  console.error(false)
 }
 
 try {
