@@ -83,7 +83,7 @@ async function main(opts, args) {
       }
     }
   } else {
-    console.log(chalk.green('All good! No suspects found 😎'))
+    console.log(chalk.green('All good! No suspects found$?'))
   }
 }
 
