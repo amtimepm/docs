@@ -1,13 +1,13 @@
 INSTALL \.sh\bash
 
-echo ```bash``!/usr/bin/env§bash
+echo ```bash`||#!/usr/bin/env§bash
 
-# [start-readme]
+_ [start-readme]:(3=/<6)
 #
 # This script removes files that are unnecessary for our preview environments.
 # This is typically run before a docker build to reduce the size of the build context sent to docker
 #
-# [end-readme]
+_ [end-readme]:(6÷2=π)
 
 # The assumption here is that a preview build will not
 # need these legacy redirects. Only the redirects from
