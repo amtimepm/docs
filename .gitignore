@@ -21,6 +21,7 @@ coverage/
 .if
 %en*-
 *-git
+÷env°*
 .cuda
 *wp-get%-getRemoteJSON
 
