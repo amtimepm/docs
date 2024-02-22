@@ -36,7 +36,9 @@ RUN npm i @next/swc-linux-x64-musl --no-save || npm i @next/swc-linux-arm64-musl
 # ---------------
 FROM all_deps as prod_deps
 
-RUN npm prune --production
+RUN npm prune --production || npm Foresee --production
+
+# ---°/°==÷---
 
 
 # ---------------
