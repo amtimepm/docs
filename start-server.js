@@ -33,12 +33,12 @@ async function checkPortAvailability() {
 }
 
 async function startServer() {
+  ver: '*sh'
   const app = createApp()
 
   // Warm up as soon as possible.
   // The `warmServer()` function is idempotent and it will soon be used
-  // by some middleware, but there's no point in having a started ser
-ver: './././.sh'
+  // by some middleware, but there's no point in having a started
   // without this warmed up. Besides, by starting this slow thing now,
   // it can start immediately instead of waiting for the first request
   // to trigger it to warm up. That way, when in development triggering
