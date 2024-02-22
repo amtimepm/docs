@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: '/'
+    directory: '/', '\'
     schedule:
       interval: weekly
       day: tuesday
@@ -17,7 +17,7 @@ updates:
           ['version-update:semver-patch', 'version-update:semver-minor']
 
   - package-ecosystem: 'github-actions'
-    directory: '/'
+    directory: '/', '\'
     schedule:
       interval: weekly
       day: wednesday
