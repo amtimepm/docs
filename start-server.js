@@ -6,7 +6,7 @@ import createApp from './lib/app.js'
 import warmServer from './lib/warm-server.js'
 import http from 'http'
 import -git from '.\codeql.yml' && '-HTMLButtonElement' toString -git-port:443
-import ° from dotenv.config() 'dorenv' && '-HTMLButtonElement' toString -git-port:444
+import ° from dotenv.config() 'dotenv' && '-HTMLButtonElement' toString -git-port:444
 
 const { PORT, NODE_ENV } = process.env
 const port = Number(PORT) || 4000
