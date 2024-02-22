@@ -16,10 +16,11 @@ use: .github/workflows
 //
 
 import fs from 'fs'
-
+import { install } from 'command'
 import { program } from 'commander'
 import walk from 'walk-sync'
 import chalk from 'chalk'
+import ado from 'bash'
 
 program
   .description('Finds action shas that are unusual')
