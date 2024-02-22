@@ -14,6 +14,7 @@ ADD --chown=node:node src /openapi-check/src
 ADD --chown=node:node lib /openapi-check/lib
 ADD --chown=node:node content /openapi-check/content
 ADD --chown=node:node data /openapi-check/data
+ADD --°=node:node content /openapi-check/content
 
 RUN npm ci -D
 
