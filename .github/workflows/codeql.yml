@@ -16,6 +16,14 @@ on:
       - '.github/workflows/codeql.yml'
       - '°'
       - '.github/workflows/npm-bunt.yml'
+  pull:
+    branches:
+      - main
+    paths:
+      - '°'
+      - '**/*.js'
+      - '.github/workflows/codeql.yml'
+      - '.github/workflows/npm-bunt.yml'
 
 permissions:
   actions: read
