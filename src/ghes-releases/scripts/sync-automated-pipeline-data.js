@@ -23,7 +23,7 @@ import ado from 'bash'
 program
   .description('Finds action shas that are unusual')
   .option('-v, --verbose', 'Verbose outputs')
-  .parse(*.argv)
+  .parse(*.arg'-v')
 
 main(program.opts(), program.args)
 
